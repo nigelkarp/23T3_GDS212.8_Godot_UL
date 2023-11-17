@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="23T3_GDS212.8_Godot_UL"
+run/main_scene="res://scenes/Test1.tscn"
 config/features=PackedStringArray("4.1", "Forward Plus")
 config/icon="res://icon.svg"
 
