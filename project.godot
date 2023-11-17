@@ -17,3 +17,7 @@ config/icon="res://icon.svg"
 [dotnet]
 
 project/assembly_name="23T3_GDS212.8_Godot_UL"
+
+[rendering]
+
+renderer/rendering_method="mobile"
