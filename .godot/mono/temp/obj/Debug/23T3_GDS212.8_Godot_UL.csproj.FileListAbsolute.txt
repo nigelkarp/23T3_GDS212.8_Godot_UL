@@ -1,0 +1,17 @@
+C:\Users\ushan\OneDrive\Documents\_DEV\23T3_GDS212.8_Godot_UL\.godot\mono\temp\bin\Debug\23T3_GDS212.8_Godot_UL.deps.json
+C:\Users\ushan\OneDrive\Documents\_DEV\23T3_GDS212.8_Godot_UL\.godot\mono\temp\bin\Debug\23T3_GDS212.8_Godot_UL.runtimeconfig.json
+C:\Users\ushan\OneDrive\Documents\_DEV\23T3_GDS212.8_Godot_UL\.godot\mono\temp\bin\Debug\23T3_GDS212.8_Godot_UL.dll
+C:\Users\ushan\OneDrive\Documents\_DEV\23T3_GDS212.8_Godot_UL\.godot\mono\temp\bin\Debug\23T3_GDS212.8_Godot_UL.pdb
+C:\Users\ushan\OneDrive\Documents\_DEV\23T3_GDS212.8_Godot_UL\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\ushan\OneDrive\Documents\_DEV\23T3_GDS212.8_Godot_UL\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\ushan\OneDrive\Documents\_DEV\23T3_GDS212.8_Godot_UL\.godot\mono\temp\obj\Debug\23T3_GDS212.8_Godot_UL.csproj.AssemblyReference.cache
+C:\Users\ushan\OneDrive\Documents\_DEV\23T3_GDS212.8_Godot_UL\.godot\mono\temp\obj\Debug\23T3_GDS212.8_Godot_UL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ushan\OneDrive\Documents\_DEV\23T3_GDS212.8_Godot_UL\.godot\mono\temp\obj\Debug\23T3_GDS212.8_Godot_UL.AssemblyInfoInputs.cache
+C:\Users\ushan\OneDrive\Documents\_DEV\23T3_GDS212.8_Godot_UL\.godot\mono\temp\obj\Debug\23T3_GDS212.8_Godot_UL.AssemblyInfo.cs
+C:\Users\ushan\OneDrive\Documents\_DEV\23T3_GDS212.8_Godot_UL\.godot\mono\temp\obj\Debug\23T3_GDS212.8_Godot_UL.csproj.CoreCompileInputs.cache
+C:\Users\ushan\OneDrive\Documents\_DEV\23T3_GDS212.8_Godot_UL\.godot\mono\temp\obj\Debug\23T3_GDS212.8_Godot_UL.csproj.CopyComplete
+C:\Users\ushan\OneDrive\Documents\_DEV\23T3_GDS212.8_Godot_UL\.godot\mono\temp\obj\Debug\23T3_GDS212.8_Godot_UL.dll
+C:\Users\ushan\OneDrive\Documents\_DEV\23T3_GDS212.8_Godot_UL\.godot\mono\temp\obj\Debug\refint\23T3_GDS212.8_Godot_UL.dll
+C:\Users\ushan\OneDrive\Documents\_DEV\23T3_GDS212.8_Godot_UL\.godot\mono\temp\obj\Debug\23T3_GDS212.8_Godot_UL.pdb
+C:\Users\ushan\OneDrive\Documents\_DEV\23T3_GDS212.8_Godot_UL\.godot\mono\temp\obj\Debug\23T3_GDS212.8_Godot_UL.genruntimeconfig.cache
+C:\Users\ushan\OneDrive\Documents\_DEV\23T3_GDS212.8_Godot_UL\.godot\mono\temp\obj\Debug\ref\23T3_GDS212.8_Godot_UL.dll

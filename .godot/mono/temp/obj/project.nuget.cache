@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ODcW3gktiMvApw7bdJg7XicIJw220QsGPwBsHJkeKez2nVjRH5xBbXUAyNHYcRJODgPwyqWrMduwBBkvpxSV+A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ushan\\OneDrive\\Documents\\_DEV\\23T3_GDS212.8_Godot_UL\\23T3_GDS212.8_Godot_UL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ushan\\.nuget\\packages\\godot.sourcegenerators\\4.1.3\\godot.sourcegenerators.4.1.3.nupkg.sha512",
+    "C:\\Users\\ushan\\.nuget\\packages\\godotsharp\\4.1.3\\godotsharp.4.1.3.nupkg.sha512",
+    "C:\\Users\\ushan\\.nuget\\packages\\godotsharpeditor\\4.1.3\\godotsharpeditor.4.1.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,2 +1,3 @@
-res://scenes/Test1.tscn
-res://objects/sprite_2d.tscn
+res://scenes/Game.tscn
+res://scripts/Card.cs
+res://scripts/Game.cs

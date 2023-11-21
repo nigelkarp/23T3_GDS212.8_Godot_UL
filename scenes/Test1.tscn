@@ -1,8 +1,8 @@
 [gd_scene load_steps=2 format=3 uid="uid://0uq5jwbt1t57"]
 
-[ext_resource type="PackedScene" uid="uid://qscey6tp8bkt" path="res://objects/sprite_2d.tscn" id="1_mnusd"]
+[ext_resource type="PackedScene" uid="uid://qscey6tp8bkt" path="res://objects/card.tscn" id="1_mnusd"]
 
 [node name="Node2D" type="Node2D"]
 
-[node name="Sprite2D" parent="." instance=ExtResource("1_mnusd")]
+[node name="DefaultCard" parent="." instance=ExtResource("1_mnusd")]
 position = Vector2(127, 134)

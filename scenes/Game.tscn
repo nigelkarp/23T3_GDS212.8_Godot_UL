@@ -1,0 +1,34 @@
+[gd_scene load_steps=2 format=3 uid="uid://bqsrap2xkqmv5"]
+
+[ext_resource type="Script" path="res://scripts/Game.cs" id="1_uneuf"]
+
+[node name="Game" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_uneuf")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.980392, 0.980392, 0.823529, 1)
+
+[node name="grid" type="GridContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 40.0
+offset_top = 40.0
+offset_right = -40.0
+offset_bottom = -240.0
+grow_horizontal = 2
+grow_vertical = 2
+columns = 13
