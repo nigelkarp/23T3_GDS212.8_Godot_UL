@@ -1,3 +1,5 @@
-res://objects/card.tscn
 res://scenes/Game.tscn
-res://scripts/Card.cs
+res://objects/card.tscn
+res://scripts/CardManagement.cs
+res://scripts/CardTextureButton.cs
+res://scripts/Game.cs

@@ -1,16 +1,15 @@
-[gd_scene load_steps=12 format=3 uid="uid://bqsrap2xkqmv5"]
+[gd_scene load_steps=11 format=3 uid="uid://bqsrap2xkqmv5"]
 
 [ext_resource type="Script" path="res://scripts/Game.cs" id="1_uneuf"]
 [ext_resource type="PackedScene" uid="uid://mi7pykqoakbr" path="res://objects/card.tscn" id="2_id7xy"]
-[ext_resource type="Texture2D" uid="uid://bv80enieguhy5" path="res://sprites/cards/card_clubs_suit.png" id="3_fnsfe"]
-[ext_resource type="Texture2D" uid="uid://cfvs7pivpltll" path="res://sprites/cards/card_diamonds_05.png" id="4_bam36"]
+[ext_resource type="Texture2D" uid="uid://b7ltd4rty60gc" path="res://sprites/cards/card_spades_02.png" id="3_jgjdp"]
 [ext_resource type="Texture2D" uid="uid://f0846vd8isbi" path="res://sprites/cards/card_spades_03.png" id="4_rvwyc"]
-[ext_resource type="Texture2D" uid="uid://qnha0uoukh8l" path="res://sprites/cards/card_diamonds_02.png" id="6_40g5b"]
-[ext_resource type="Texture2D" uid="uid://uvhepcxtudwk" path="res://sprites/cards/card_clubs_04.png" id="7_dyiof"]
-[ext_resource type="Texture2D" uid="uid://dmafx55wqahh3" path="res://sprites/cards/card_joker_red.png" id="7_u5x8g"]
+[ext_resource type="Texture2D" uid="uid://bei7vxq4htb4o" path="res://sprites/cards/card_spades_04.png" id="5_pxwnp"]
+[ext_resource type="Texture2D" uid="uid://70c27nc7t2nv" path="res://sprites/cards/card_spades_05.png" id="6_yh6rd"]
+[ext_resource type="Texture2D" uid="uid://ct53pp77crn5c" path="res://sprites/cards/card_spades_06.png" id="7_pfpbl"]
 [ext_resource type="Texture2D" uid="uid://fsskypncyyy1" path="res://sprites/cards/card_spades_08.png" id="8_nds3u"]
-[ext_resource type="Texture2D" uid="uid://dgy6h18ohe8ow" path="res://sprites/cards/card_hearts_K.png" id="9_o3uh5"]
-[ext_resource type="Texture2D" uid="uid://boca2r2qxsj2t" path="res://sprites/cards/card_diamonds_08.png" id="10_kqj1l"]
+[ext_resource type="Texture2D" uid="uid://bkc3oqhgifoie" path="res://sprites/cards/card_spades_07.png" id="8_y7ev8"]
+[ext_resource type="Texture2D" uid="uid://detisevl5lkbw" path="res://sprites/cards/card_spades_09.png" id="10_t02rc"]
 
 [node name="Game" type="Control"]
 layout_mode = 3
@@ -56,127 +55,121 @@ columns = 6
 custom_minimum_size = Vector2(200, 200)
 layout_mode = 2
 
-[node name="TextureRect" parent="FlowContainer/HFlowContainer/grid/Card1A" index="0"]
-texture = ExtResource("3_fnsfe")
-
 [node name="Card1B" parent="FlowContainer/HFlowContainer/grid" instance=ExtResource("2_id7xy")]
 custom_minimum_size = Vector2(200, 200)
 layout_mode = 2
-
-[node name="TextureRect" parent="FlowContainer/HFlowContainer/grid/Card1B" index="0"]
-texture = ExtResource("3_fnsfe")
 
 [node name="Card2A" parent="FlowContainer/HFlowContainer/grid" instance=ExtResource("2_id7xy")]
 custom_minimum_size = Vector2(200, 200)
 layout_mode = 2
 
-[node name="TextureRect" parent="FlowContainer/HFlowContainer/grid/Card2A" index="0"]
-texture = ExtResource("4_bam36")
+[node name="Front" parent="FlowContainer/HFlowContainer/grid/Card2A" index="0"]
+texture = ExtResource("3_jgjdp")
 
 [node name="Card2B" parent="FlowContainer/HFlowContainer/grid" instance=ExtResource("2_id7xy")]
 custom_minimum_size = Vector2(200, 200)
 layout_mode = 2
 
-[node name="TextureRect" parent="FlowContainer/HFlowContainer/grid/Card2B" index="0"]
-texture = ExtResource("4_bam36")
+[node name="Front" parent="FlowContainer/HFlowContainer/grid/Card2B" index="0"]
+texture = ExtResource("3_jgjdp")
 
 [node name="Card3A" parent="FlowContainer/HFlowContainer/grid" instance=ExtResource("2_id7xy")]
 custom_minimum_size = Vector2(200, 200)
 layout_mode = 2
 
-[node name="TextureRect" parent="FlowContainer/HFlowContainer/grid/Card3A" index="0"]
+[node name="Front" parent="FlowContainer/HFlowContainer/grid/Card3A" index="0"]
 texture = ExtResource("4_rvwyc")
 
 [node name="Card3B" parent="FlowContainer/HFlowContainer/grid" instance=ExtResource("2_id7xy")]
 custom_minimum_size = Vector2(200, 200)
 layout_mode = 2
 
-[node name="TextureRect" parent="FlowContainer/HFlowContainer/grid/Card3B" index="0"]
+[node name="Front" parent="FlowContainer/HFlowContainer/grid/Card3B" index="0"]
 texture = ExtResource("4_rvwyc")
 
 [node name="Card4A" parent="FlowContainer/HFlowContainer/grid" instance=ExtResource("2_id7xy")]
 custom_minimum_size = Vector2(200, 200)
 layout_mode = 2
 
-[node name="TextureRect" parent="FlowContainer/HFlowContainer/grid/Card4A" index="0"]
-texture = ExtResource("6_40g5b")
+[node name="Front" parent="FlowContainer/HFlowContainer/grid/Card4A" index="0"]
+texture = ExtResource("5_pxwnp")
 
 [node name="Card4B" parent="FlowContainer/HFlowContainer/grid" instance=ExtResource("2_id7xy")]
 custom_minimum_size = Vector2(200, 200)
 layout_mode = 2
 
-[node name="TextureRect" parent="FlowContainer/HFlowContainer/grid/Card4B" index="0"]
-texture = ExtResource("6_40g5b")
+[node name="Front" parent="FlowContainer/HFlowContainer/grid/Card4B" index="0"]
+texture = ExtResource("5_pxwnp")
 
 [node name="Card5A" parent="FlowContainer/HFlowContainer/grid" instance=ExtResource("2_id7xy")]
 custom_minimum_size = Vector2(200, 200)
 layout_mode = 2
 
-[node name="TextureRect" parent="FlowContainer/HFlowContainer/grid/Card5A" index="0"]
-texture = ExtResource("7_dyiof")
+[node name="Front" parent="FlowContainer/HFlowContainer/grid/Card5A" index="0"]
+texture = ExtResource("6_yh6rd")
 
 [node name="Card5B" parent="FlowContainer/HFlowContainer/grid" instance=ExtResource("2_id7xy")]
 custom_minimum_size = Vector2(200, 200)
 layout_mode = 2
 
-[node name="TextureRect" parent="FlowContainer/HFlowContainer/grid/Card5B" index="0"]
-texture = ExtResource("7_dyiof")
+[node name="Front" parent="FlowContainer/HFlowContainer/grid/Card5B" index="0"]
+texture = ExtResource("6_yh6rd")
 
 [node name="Card6A" parent="FlowContainer/HFlowContainer/grid" instance=ExtResource("2_id7xy")]
 custom_minimum_size = Vector2(200, 200)
 layout_mode = 2
 
-[node name="TextureRect" parent="FlowContainer/HFlowContainer/grid/Card6A" index="0"]
-texture = ExtResource("7_u5x8g")
+[node name="Front" parent="FlowContainer/HFlowContainer/grid/Card6A" index="0"]
+texture = ExtResource("7_pfpbl")
 
 [node name="Card6B" parent="FlowContainer/HFlowContainer/grid" instance=ExtResource("2_id7xy")]
 custom_minimum_size = Vector2(200, 200)
 layout_mode = 2
 
-[node name="TextureRect" parent="FlowContainer/HFlowContainer/grid/Card6B" index="0"]
-texture = ExtResource("7_u5x8g")
+[node name="Front" parent="FlowContainer/HFlowContainer/grid/Card6B" index="0"]
+texture = ExtResource("7_pfpbl")
 
 [node name="Card7A" parent="FlowContainer/HFlowContainer/grid" instance=ExtResource("2_id7xy")]
 custom_minimum_size = Vector2(200, 200)
 layout_mode = 2
 
-[node name="TextureRect" parent="FlowContainer/HFlowContainer/grid/Card7A" index="0"]
-texture = ExtResource("8_nds3u")
+[node name="Front" parent="FlowContainer/HFlowContainer/grid/Card7A" index="0"]
+texture = ExtResource("8_y7ev8")
 
 [node name="Card7B" parent="FlowContainer/HFlowContainer/grid" instance=ExtResource("2_id7xy")]
 custom_minimum_size = Vector2(200, 200)
 layout_mode = 2
 
-[node name="TextureRect" parent="FlowContainer/HFlowContainer/grid/Card7B" index="0"]
-texture = ExtResource("8_nds3u")
+[node name="Front" parent="FlowContainer/HFlowContainer/grid/Card7B" index="0"]
+texture = ExtResource("8_y7ev8")
 
 [node name="Card8A" parent="FlowContainer/HFlowContainer/grid" instance=ExtResource("2_id7xy")]
 custom_minimum_size = Vector2(200, 200)
 layout_mode = 2
 
-[node name="TextureRect" parent="FlowContainer/HFlowContainer/grid/Card8A" index="0"]
-texture = ExtResource("9_o3uh5")
+[node name="Front" parent="FlowContainer/HFlowContainer/grid/Card8A" index="0"]
+texture = ExtResource("8_nds3u")
 
 [node name="Card8B" parent="FlowContainer/HFlowContainer/grid" instance=ExtResource("2_id7xy")]
 custom_minimum_size = Vector2(200, 200)
 layout_mode = 2
 
-[node name="TextureRect" parent="FlowContainer/HFlowContainer/grid/Card8B" index="0"]
-texture = ExtResource("9_o3uh5")
+[node name="Front" parent="FlowContainer/HFlowContainer/grid/Card8B" index="0"]
+texture = ExtResource("8_nds3u")
 
 [node name="Card9A" parent="FlowContainer/HFlowContainer/grid" instance=ExtResource("2_id7xy")]
 custom_minimum_size = Vector2(200, 200)
 layout_mode = 2
 
-[node name="TextureRect" parent="FlowContainer/HFlowContainer/grid/Card9A" index="0"]
-texture = ExtResource("10_kqj1l")
+[node name="Front" parent="FlowContainer/HFlowContainer/grid/Card9A" index="0"]
+texture = ExtResource("10_t02rc")
 
 [node name="Card9B" parent="FlowContainer/HFlowContainer/grid" instance=ExtResource("2_id7xy")]
 custom_minimum_size = Vector2(200, 200)
 layout_mode = 2
 
-[node name="TextureRect" parent="FlowContainer/HFlowContainer/grid/Card9B" index="0"]
-texture = ExtResource("10_kqj1l")
+[node name="Front" parent="FlowContainer/HFlowContainer/grid/Card9B" index="0"]
+texture = ExtResource("10_t02rc")
 
 [editable path="FlowContainer/HFlowContainer/grid/Card1A"]
 [editable path="FlowContainer/HFlowContainer/grid/Card1B"]
