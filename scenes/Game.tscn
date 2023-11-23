@@ -1,6 +1,16 @@
-[gd_scene load_steps=2 format=3 uid="uid://bqsrap2xkqmv5"]
+[gd_scene load_steps=12 format=3 uid="uid://bqsrap2xkqmv5"]
 
 [ext_resource type="Script" path="res://scripts/Game.cs" id="1_uneuf"]
+[ext_resource type="PackedScene" uid="uid://mi7pykqoakbr" path="res://objects/card.tscn" id="2_id7xy"]
+[ext_resource type="Texture2D" uid="uid://bv80enieguhy5" path="res://sprites/cards/card_clubs_suit.png" id="3_fnsfe"]
+[ext_resource type="Texture2D" uid="uid://cfvs7pivpltll" path="res://sprites/cards/card_diamonds_05.png" id="4_bam36"]
+[ext_resource type="Texture2D" uid="uid://f0846vd8isbi" path="res://sprites/cards/card_spades_03.png" id="4_rvwyc"]
+[ext_resource type="Texture2D" uid="uid://qnha0uoukh8l" path="res://sprites/cards/card_diamonds_02.png" id="6_40g5b"]
+[ext_resource type="Texture2D" uid="uid://uvhepcxtudwk" path="res://sprites/cards/card_clubs_04.png" id="7_dyiof"]
+[ext_resource type="Texture2D" uid="uid://dmafx55wqahh3" path="res://sprites/cards/card_joker_red.png" id="7_u5x8g"]
+[ext_resource type="Texture2D" uid="uid://fsskypncyyy1" path="res://sprites/cards/card_spades_08.png" id="8_nds3u"]
+[ext_resource type="Texture2D" uid="uid://dgy6h18ohe8ow" path="res://sprites/cards/card_hearts_K.png" id="9_o3uh5"]
+[ext_resource type="Texture2D" uid="uid://boca2r2qxsj2t" path="res://sprites/cards/card_diamonds_08.png" id="10_kqj1l"]
 
 [node name="Game" type="Control"]
 layout_mode = 3
@@ -20,15 +30,169 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0.980392, 0.980392, 0.823529, 1)
 
-[node name="grid" type="GridContainer" parent="."]
+[node name="FlowContainer" type="FlowContainer" parent="."]
+layout_direction = 2
 layout_mode = 1
-anchors_preset = -1
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 40.0
-offset_top = 40.0
-offset_right = -40.0
-offset_bottom = -240.0
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -610.0
+offset_right = 610.0
+offset_bottom = 608.0
 grow_horizontal = 2
-grow_vertical = 2
-columns = 13
+vertical = true
+
+[node name="HFlowContainer" type="HFlowContainer" parent="FlowContainer"]
+layout_mode = 2
+
+[node name="grid" type="GridContainer" parent="FlowContainer/HFlowContainer"]
+y_sort_enabled = true
+texture_filter = 1
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+columns = 6
+
+[node name="Card1A" parent="FlowContainer/HFlowContainer/grid" instance=ExtResource("2_id7xy")]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+
+[node name="TextureRect" parent="FlowContainer/HFlowContainer/grid/Card1A" index="0"]
+texture = ExtResource("3_fnsfe")
+
+[node name="Card1B" parent="FlowContainer/HFlowContainer/grid" instance=ExtResource("2_id7xy")]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+
+[node name="TextureRect" parent="FlowContainer/HFlowContainer/grid/Card1B" index="0"]
+texture = ExtResource("3_fnsfe")
+
+[node name="Card2A" parent="FlowContainer/HFlowContainer/grid" instance=ExtResource("2_id7xy")]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+
+[node name="TextureRect" parent="FlowContainer/HFlowContainer/grid/Card2A" index="0"]
+texture = ExtResource("4_bam36")
+
+[node name="Card2B" parent="FlowContainer/HFlowContainer/grid" instance=ExtResource("2_id7xy")]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+
+[node name="TextureRect" parent="FlowContainer/HFlowContainer/grid/Card2B" index="0"]
+texture = ExtResource("4_bam36")
+
+[node name="Card3A" parent="FlowContainer/HFlowContainer/grid" instance=ExtResource("2_id7xy")]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+
+[node name="TextureRect" parent="FlowContainer/HFlowContainer/grid/Card3A" index="0"]
+texture = ExtResource("4_rvwyc")
+
+[node name="Card3B" parent="FlowContainer/HFlowContainer/grid" instance=ExtResource("2_id7xy")]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+
+[node name="TextureRect" parent="FlowContainer/HFlowContainer/grid/Card3B" index="0"]
+texture = ExtResource("4_rvwyc")
+
+[node name="Card4A" parent="FlowContainer/HFlowContainer/grid" instance=ExtResource("2_id7xy")]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+
+[node name="TextureRect" parent="FlowContainer/HFlowContainer/grid/Card4A" index="0"]
+texture = ExtResource("6_40g5b")
+
+[node name="Card4B" parent="FlowContainer/HFlowContainer/grid" instance=ExtResource("2_id7xy")]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+
+[node name="TextureRect" parent="FlowContainer/HFlowContainer/grid/Card4B" index="0"]
+texture = ExtResource("6_40g5b")
+
+[node name="Card5A" parent="FlowContainer/HFlowContainer/grid" instance=ExtResource("2_id7xy")]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+
+[node name="TextureRect" parent="FlowContainer/HFlowContainer/grid/Card5A" index="0"]
+texture = ExtResource("7_dyiof")
+
+[node name="Card5B" parent="FlowContainer/HFlowContainer/grid" instance=ExtResource("2_id7xy")]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+
+[node name="TextureRect" parent="FlowContainer/HFlowContainer/grid/Card5B" index="0"]
+texture = ExtResource("7_dyiof")
+
+[node name="Card6A" parent="FlowContainer/HFlowContainer/grid" instance=ExtResource("2_id7xy")]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+
+[node name="TextureRect" parent="FlowContainer/HFlowContainer/grid/Card6A" index="0"]
+texture = ExtResource("7_u5x8g")
+
+[node name="Card6B" parent="FlowContainer/HFlowContainer/grid" instance=ExtResource("2_id7xy")]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+
+[node name="TextureRect" parent="FlowContainer/HFlowContainer/grid/Card6B" index="0"]
+texture = ExtResource("7_u5x8g")
+
+[node name="Card7A" parent="FlowContainer/HFlowContainer/grid" instance=ExtResource("2_id7xy")]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+
+[node name="TextureRect" parent="FlowContainer/HFlowContainer/grid/Card7A" index="0"]
+texture = ExtResource("8_nds3u")
+
+[node name="Card7B" parent="FlowContainer/HFlowContainer/grid" instance=ExtResource("2_id7xy")]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+
+[node name="TextureRect" parent="FlowContainer/HFlowContainer/grid/Card7B" index="0"]
+texture = ExtResource("8_nds3u")
+
+[node name="Card8A" parent="FlowContainer/HFlowContainer/grid" instance=ExtResource("2_id7xy")]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+
+[node name="TextureRect" parent="FlowContainer/HFlowContainer/grid/Card8A" index="0"]
+texture = ExtResource("9_o3uh5")
+
+[node name="Card8B" parent="FlowContainer/HFlowContainer/grid" instance=ExtResource("2_id7xy")]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+
+[node name="TextureRect" parent="FlowContainer/HFlowContainer/grid/Card8B" index="0"]
+texture = ExtResource("9_o3uh5")
+
+[node name="Card9A" parent="FlowContainer/HFlowContainer/grid" instance=ExtResource("2_id7xy")]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+
+[node name="TextureRect" parent="FlowContainer/HFlowContainer/grid/Card9A" index="0"]
+texture = ExtResource("10_kqj1l")
+
+[node name="Card9B" parent="FlowContainer/HFlowContainer/grid" instance=ExtResource("2_id7xy")]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+
+[node name="TextureRect" parent="FlowContainer/HFlowContainer/grid/Card9B" index="0"]
+texture = ExtResource("10_kqj1l")
+
+[editable path="FlowContainer/HFlowContainer/grid/Card1A"]
+[editable path="FlowContainer/HFlowContainer/grid/Card1B"]
+[editable path="FlowContainer/HFlowContainer/grid/Card2A"]
+[editable path="FlowContainer/HFlowContainer/grid/Card2B"]
+[editable path="FlowContainer/HFlowContainer/grid/Card3A"]
+[editable path="FlowContainer/HFlowContainer/grid/Card3B"]
+[editable path="FlowContainer/HFlowContainer/grid/Card4A"]
+[editable path="FlowContainer/HFlowContainer/grid/Card4B"]
+[editable path="FlowContainer/HFlowContainer/grid/Card5A"]
+[editable path="FlowContainer/HFlowContainer/grid/Card5B"]
+[editable path="FlowContainer/HFlowContainer/grid/Card6A"]
+[editable path="FlowContainer/HFlowContainer/grid/Card6B"]
+[editable path="FlowContainer/HFlowContainer/grid/Card7A"]
+[editable path="FlowContainer/HFlowContainer/grid/Card7B"]
+[editable path="FlowContainer/HFlowContainer/grid/Card8A"]
+[editable path="FlowContainer/HFlowContainer/grid/Card8B"]
+[editable path="FlowContainer/HFlowContainer/grid/Card9A"]
+[editable path="FlowContainer/HFlowContainer/grid/Card9B"]
